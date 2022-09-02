@@ -1,0 +1,77 @@
+{
+	"1/0": [{
+		"name": "Año Nuevo"
+	}],
+	"14/1": [{
+		"name": "Día del Amor y la Amistad"
+	}],
+	"8/2": [{
+		"name": "Día Internacional de la Mujer"
+	}],
+	"19/2": [{
+		"name": "Día de San José"
+	}],
+	"20/2": [{
+		"name": "Aniversario de la Batalla de Santa Rosa"
+	}],
+	"11/3": [{
+		"name": "Batalla de Rivas"
+	}],
+	"22/3": [{
+		"name": "Día Internacional de la Tierra"
+	}],
+	"23/3": [{
+		"name": "Día del Libro"
+	}],
+	"1/4": [{
+		"name": "Día Internacional de los Trabajadores"
+	}],
+	"15/5": [{
+		"name": "Día del Árbol"
+	}],
+	"25/6": [{
+		"name": "Anexión del Partido de Nicoya"
+	}],
+	"30/6": [{
+		"name": "Día de Guanacaste"
+	}],
+	"2/7": [{
+		"name": "Día de la Virgen de los Ángeles"
+	}],
+	"24/7": [{
+		"name": "Día de los Parques Nacionales"
+	}],
+	"31/7": [{
+		"name": "Día del Negro y la Cultura Afrocostarricense"
+	}],
+	"9/8": [{
+		"name": "Día del Niño"
+	}],
+	"15/8": [{
+		"name": "Día de la Independencia"
+	}],
+	"12/9": [{
+		"name": "Día de las Culturas"
+	}],
+	"31/9": [{
+		"name": "Día de la Mascarada Costarricense"
+	}],
+	"2/10": [{
+		"name": "Día de los Fieles Difuntos"
+	}],
+	"22/10": [{
+		"name": "Día del Educador"
+	}],
+	"24/11": [{
+		"name": "Nochebuena"
+	}],
+	"25/11": [{
+		"name": "Navidad"
+	}],
+	"28/11": [{
+		"name": "Día de los Inocentes"
+	}],
+	"31/11": [{
+		"name": "Fin de Año"
+	}]
+}

@@ -1,0 +1,79 @@
+/*
+	   ______ _____ _____    ____                     __
+	  / ____// ___// ___/   / __ \ ___   _____ ___   / /_
+	 / /     \__ \ \__ \   / /_/ // _ \ / ___// _ \ / __/
+	/ /___  ___/ /___/ /  / _, _//  __/(__  )/  __// /_
+	\____/ /____//____/  /_/ |_| \___//____/ \___/ \__/
+
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+
+footer, main, section {
+	position: relative;
+}
+
+html,
+body {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif, 'Helvetica Neue', Arial;
+	color: #333;
+	line-height: 1;
+	background-color: #fff;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+ol, ul, li {
+	font-size: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

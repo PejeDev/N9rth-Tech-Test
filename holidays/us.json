@@ -1,0 +1,86 @@
+{
+	"1/0": [{
+		"name": "New Year's Day"
+	}],
+	"6/0": [{
+		"name": "Epiphany"
+	}],
+	"7/0": [{
+		"name": "Orthodox Christmas"
+	}],
+	"16/0": [{
+		"name": "Martin Luther King, Jr. Day"
+	}],
+	"2/1": [{
+		"name": "Groundhog Day"
+	}],
+	"14/1": [{
+		"name": "Valentine's Day"
+	}],
+	"20/1": [{
+		"name": "George Washington's Birthday"
+	}],
+	"17/2": [{
+		"name": "St. Patrick's Day"
+	}],
+	"1/3": [{
+		"name": "April Fools' Day"
+	}],
+	"22/3": [{
+		"name": "Earth Day"
+	}],
+	"28/3": [{
+		"name": "National Arbor Day"
+	}],
+	"1/4": [{
+		"name": "May Day"
+	}],
+	"4/4": [{
+		"name": "Star Wars Day"
+	}],
+	"5/4": [{
+		"name": "Cinco de Mayo"
+	}],
+	"14/5": [{
+		"name": "Flag Day"
+	}],
+	"27/5": [{
+		"name": "Helen Keller Day"
+	}],
+	"4/6": [{
+		"name": "Independence Day"
+	}],
+	"26/7": [{
+		"name": "Women's Equality Day"
+	}],
+	"17/8": [{
+		"name": "Constitution Day"
+	}],
+	"6/9": [{
+		"name": "German-American Day"
+	}],
+	"9/9": [{
+		"name": "Leif Erikson Day"
+	}],
+	"31/9": [{
+		"name": "Halloween"
+	}],
+	"11/10": [{
+		"name": "Veterans Day"
+	}],
+	"7/11": [{
+		"name": "Pearl Harbor Remembrance Day"
+	}],
+	"8/11": [{
+		"name": "Immaculate Conception of the Virgin Mary"
+	}],
+	"24/11": [{
+		"name": "Christmas Eve"
+	}],
+	"25/11": [{
+		"name": "Christmas Day"
+	}],
+	"31/11": [{
+		"name": "New Year's Eve"
+	}]
+}

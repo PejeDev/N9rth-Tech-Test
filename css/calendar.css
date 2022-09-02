@@ -1,0 +1,121 @@
+/*
+	   ______        __                  __
+	  / ____/____ _ / /___   ____   ____/ /____ _ _____
+	 / /    / __ `// // _ \ / __ \ / __  // __ `// ___/
+	/ /___ / /_/ // //  __// / / // /_/ // /_/ // /
+	\____/ \__,_//_/ \___//_/ /_/ \__,_/ \__,_//_/
+
+*/
+
+
+.month {
+	display: inline-block;
+	width: 100%;
+	max-width: 300px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	vertical-align: top;
+	background-color: #ededed;
+}
+
+.month.big {
+	max-width: 660px;
+}
+
+.month:last-child {
+	margin-right: 0px;
+}
+
+.month > h2 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+	color: #087aaf;
+	margin: 0 auto;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.month ul,
+.month ol {
+	display: block;
+}
+
+.month ul > li,
+.month ol > li {
+	display: inline-block;
+	width: 14.285%;
+	vertical-align: top;
+}
+
+.month .week_title {
+	border-bottom: 1px solid #ddd;
+	background-color: #ffff;
+}
+
+.month ul.week_days > li,
+.month ol.week_days > li {
+	background-color: #a8d6f7;
+	cursor: default;
+}
+
+.month ul > li.weekend,
+.month ol > li.weekend {
+	background-color: #89bee4;
+}
+
+.month ul > li > span,
+.month ol > li > span {
+	display: block;
+	position: relative;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	padding: 8px 4px;
+	cursor: inherit;
+}
+
+.month > .week_days {
+	border-right: 1px solid #f7f8f9;
+	border-bottom: 1px solid #f7f8f9;
+	background-color: #f7f8f9;
+}
+
+.month > .week_days > li > span {
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+.month .week_days > li:last-child > span:after {
+	content: '';
+	position: absolute;
+	right: -1px;
+	height: 100%;
+	border-right: 1px solid #fff;
+}
+
+.month ul > li > span.empty,
+.month ol > li > span.empty {
+	display: none;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	text-indent: -100px;
+	border-left: none;
+	padding: 8px 4px;
+	background-color: #f7f8f9;
+	overflow: hidden;
+}
+
+.month ul > li > span.disabled,
+.month ol > li > span.disabled {
+	background-color: #ebedef;
+}
+
+.month ul > li > span.disabled,
+.month ol > li > span.disabled {
+	color: #999;
+}
