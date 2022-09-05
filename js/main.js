@@ -6,6 +6,7 @@
 // Get DOM primary elements
 const cal = document.getElementById('calendar');
 const main = document.getElementsByTagName('main')[0];
+const submitBtn = document.getElementsByClassName('btn-blue')[0];
 
 // Customization variables
 var useMonthShort = false,
@@ -189,6 +190,8 @@ function makeCalendar(dateStart, dateLength) {
 	// Remove loading class after all days/months are rendered
 	window.setTimeout(function() {
 		cal.parentNode.classList.remove('loading');
+		cal.parentNode.classList.remove('loading');
+		submitBtn.innerText = "Update Calendar";
 	}, 1500);
 }
 
