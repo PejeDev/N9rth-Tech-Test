@@ -26,10 +26,10 @@ https://nicotrejos.github.io/
   - [x] Differentiate today's day using a different color (*HEX #444444*).
   - [x] Allow the user to specify an extra input with a Country Code.
   - [x] Validate the country code input to accept only 2 letter strings. Eg: us, cr, uk.
-  - [ ] You will find 3 JSON files with holidays ready to use in this repo (*us.json, cr.json and int.json*).
-  - [ ] Show all country selected holidays within the rendered dates.
-  - [ ] If the country selected is not us or cr, use the international json file as default.
-  - [ ] Differentiate holidays using a different color (*HEX #3d9438*).
+  - [x] You will find 3 JSON files with holidays ready to use in this repo (*us.json, cr.json and int.json*).
+  - [x] Show all country selected holidays within the rendered dates.
+  - [x] If the country selected is not us or cr, use the international json file as default.
+  - [x] Differentiate holidays using a different color (*HEX #3d9438*).
   - [ ] Show a simple js alerts with the holiday name whenever there's a click on a holiday calendar cell.
 
 

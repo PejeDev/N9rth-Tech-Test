@@ -103,7 +103,7 @@ function formatNames(type, useShort) {
 }
 
 // Make calendar
-function makeCalendar(dateStart, dateLength) {
+function makeCalendar(dateStart, dateLength, holidays) {
 	// Parse dateLength value just to make sure we work with an integer
 	dateLength = parseInt(dateLength);
 
@@ -180,6 +180,10 @@ function makeCalendar(dateStart, dateLength) {
 			// Check if day is today and add class name for styling purposes
 			if ( dateString + '/' + tempYear === today ) {
 				$day_cell.classList.add('today');
+			}
+
+			if(holidays[dateString]) {
+				$day_cell.classList.add('holiday');
 			}
 
 			// Append day name to month table container
@@ -368,10 +372,48 @@ function validateForm() {
 			}
 
 			cal.scrollTop = 0;
-			makeCalendar(inputArray[0].value, inputArray[1].value);
+			if(inputArray[2].value) {
+				getCountryCodeJson(inputArray[2].value).then( 
+					function(data) {
+						makeCalendar(inputArray[0].value, inputArray[1].value, data);
+					}
+				).catch( function(_) {
+					alert('Error: Country code holiday data not found.');
+					makeCalendar(inputArray[0].value, inputArray[1].value, {});
+				});
+			} else {
+				makeCalendar(inputArray[0].value, inputArray[1].value, {});
+			}
 		}
 
 	}, false);
+}
+
+// retrieve JSON data
+function getCountryCodeJson(countryCode) {
+	const url = countryCode === "us" || countryCode == "cr" ? './holidays/' + countryCode + '.json' : './holidays/int.json';
+  return new Promise(function (resolve, reject) {
+    var xhr = new XMLHttpRequest();
+		xhr.overrideMimeType("application/json");
+    xhr.open('GET', url);
+    xhr.onload = function () {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        resolve(JSON.parse(xhr.response));
+      } else {
+        reject({
+          status: xhr.status,
+          statusText: xhr.statusText
+        });
+      }
+    };
+    xhr.onerror = function () {
+      reject({
+        status: xhr.status,
+        statusText: xhr.statusText
+      });
+    };
+    xhr.send();
+  });
 }
 
 validateForm();
