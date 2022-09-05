@@ -23,6 +23,12 @@ const validations = {
 	},
 	daysLength: function(value) {
 		return value.match(/^([1-9][0-9]{0,2})$/);
+	},
+	countryCodeFormat: function(value) {
+		if (value === '') {
+			return true;
+		}
+		return value.match(/^[a-zA-Z]{2}$/);
 	}
 };
 
@@ -30,7 +36,8 @@ const validations = {
 var messages = {
 	required: 'Required field',
 	dateFormat: 'Invalid date format. Please use mm/dd/yyyy',
-	daysLength: 'Use only numeric chacters between 1 and 999.'
+	daysLength: 'Use only numeric chacters between 1 and 999.',
+	countryCodeFormat: 'Invalid country code. Please use 2 letters.'
 }
 
 
