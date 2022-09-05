@@ -373,7 +373,7 @@ function validateForm() {
 
 			cal.scrollTop = 0;
 			if(inputArray[2].value) {
-				getCountryCodeJson(inputArray[2].value).then( 
+				getCountryCodeJson(inputArray[2].value.toLocaleLowerCase()).then( 
 					function(data) {
 						makeCalendar(inputArray[0].value, inputArray[1].value, data);
 					}
