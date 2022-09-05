@@ -44,6 +44,7 @@ https://nicotrejos.github.io/
 
 
 ## Use this space to list requirements you could not implement.
-
+  - All requirements were implemented.
 
 ## Use this space to share bugs you’ve identified but didn’t have time to fix.
+  - The web page is not responsive. It only works on desktop. ( unfortunately I didn't have time to fix it because I had a medical appointment.)
