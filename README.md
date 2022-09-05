@@ -20,17 +20,17 @@ https://nicotrejos.github.io/
 
 
 ## Tasks
-  - Debug and fix current rendering issue(s).
-  - Make sure the calendar is rendering user selected dates correctly.
-  - Once the calendar has render, update the button text from "*Show Calendar*" to "*Update Calendar*".
-  - Differentiate today's day using a different color (*HEX #444444*).
-  - Allow the user to specify an extra input with a Country Code.
-  - Validate the country code input to accept only 2 letter strings. Eg: us, cr, uk.
-  - You will find 3 JSON files with holidays ready to use in this repo (*us.json, cr.json and int.json*).
-  - Show all country selected holidays within the rendered dates.
-  - If the country selected is not us or cr, use the international json file as default.
-  - Differentiate holidays using a different color (*HEX #3d9438*).
-  - Show a simple js alerts with the holiday name whenever there's a click on a holiday calendar cell.
+  - [x] Debug and fix current rendering issue(s).
+  - [x] Make sure the calendar is rendering user selected dates correctly.
+  - [x] Once the calendar has render, update the button text from "*Show Calendar*" to "*Update Calendar*".
+  - [ ] Differentiate today's day using a different color (*HEX #444444*).
+  - [x] Allow the user to specify an extra input with a Country Code.
+  - [x] Validate the country code input to accept only 2 letter strings. Eg: us, cr, uk.
+  - [ ] You will find 3 JSON files with holidays ready to use in this repo (*us.json, cr.json and int.json*).
+  - [ ] Show all country selected holidays within the rendered dates.
+  - [ ] If the country selected is not us or cr, use the international json file as default.
+  - [ ] Differentiate holidays using a different color (*HEX #3d9438*).
+  - [ ] Show a simple js alerts with the holiday name whenever there's a click on a holiday calendar cell.
 
 
 ## Ground Rules
