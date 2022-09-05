@@ -171,19 +171,21 @@ function makeCalendar(dateStart, dateLength, holidays) {
 			var weekend = (tempDay + tempCount - 1) + firstDay,
 				dateString = (tempDay + tempCount) + '/' + tempMonth;
 
-			// Check if day is weekend and add class name for styling purposes
-			if ( weekend % 7 === 0 || (weekend + 1) % 7 === 0) {
-				$day_cell.classList.add('weekend');
-			}
-
 			// Check if day is today and add class name for styling purposes
 			if ( dateString + '/' + tempYear === today ) {
 				$day_cell.classList.add('today');
+				if(holidays[dateString]) {
+					$day_cell.setAttribute('onclick', 'alert("' + holidays[dateString][0]['name'] + '")');
+				}
 			}
-
-			if(holidays[dateString]) {
+			// Check if day is holiday and add class name for styling purposes
+			else if(holidays[dateString]) {
 				$day_cell.classList.add('holiday');
 				$day_cell.setAttribute('onclick', 'alert("' + holidays[dateString][0]['name'] + '")');
+			}
+			// Check if day is weekend and add class name for styling purposes
+			else if ( weekend % 7 === 0 || (weekend + 1) % 7 === 0) {
+				$day_cell.classList.add('weekend');
 			}
 
 			// Append day name to month table container
