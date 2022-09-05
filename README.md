@@ -23,7 +23,7 @@ https://nicotrejos.github.io/
   - [x] Debug and fix current rendering issue(s).
   - [x] Make sure the calendar is rendering user selected dates correctly.
   - [x] Once the calendar has render, update the button text from "*Show Calendar*" to "*Update Calendar*".
-  - [ ] Differentiate today's day using a different color (*HEX #444444*).
+  - [x] Differentiate today's day using a different color (*HEX #444444*).
   - [x] Allow the user to specify an extra input with a Country Code.
   - [x] Validate the country code input to accept only 2 letter strings. Eg: us, cr, uk.
   - [ ] You will find 3 JSON files with holidays ready to use in this repo (*us.json, cr.json and int.json*).
