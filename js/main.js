@@ -184,6 +184,7 @@ function makeCalendar(dateStart, dateLength, holidays) {
 
 			if(holidays[dateString]) {
 				$day_cell.classList.add('holiday');
+				$day_cell.setAttribute('onclick', 'alert("' + holidays[dateString][0]['name'] + '")');
 			}
 
 			// Append day name to month table container

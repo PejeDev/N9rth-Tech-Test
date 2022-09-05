@@ -30,7 +30,7 @@ https://nicotrejos.github.io/
   - [x] Show all country selected holidays within the rendered dates.
   - [x] If the country selected is not us or cr, use the international json file as default.
   - [x] Differentiate holidays using a different color (*HEX #3d9438*).
-  - [ ] Show a simple js alerts with the holiday name whenever there's a click on a holiday calendar cell.
+  - [X] Show a simple js alerts with the holiday name whenever there's a click on a holiday calendar cell.
 
 
 ## Ground Rules
