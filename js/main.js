@@ -227,7 +227,7 @@ function createNewMonth(curMonth, curYear) {
 	$month_wrapper.appendChild($days);
 
 	// Iterate on days of week
-	for (var i = 0; j < dayName.length; i++) {
+	for (var i = 0; i < dayName.length; i++) {
 		let $day_cell = document.createElement('li');
 		let $day_name = document.createElement('span');
 
