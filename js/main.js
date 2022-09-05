@@ -111,8 +111,7 @@ function makeCalendar(dateStart, dateLength, holidays) {
 	var params = dateStart.split('/'),
 		startDay = parseInt(params[1]),
 		startMonth = parseInt(params[0] - 1),
-		startYear = parseInt(params[2]),
-		formatted = startYear + '/' + startMonth + '/' + startDay;
+		startYear = parseInt(params[2]);
 
 	// Create new month structure
 	createNewMonth(startMonth, startYear);
@@ -271,7 +270,6 @@ function addEmptyDaySpaces(year, month, length) {
 	for (var i = 0; i < loopLen; i++) {
 		var $day_cell = document.createElement('li');
 		var $day_name = document.createElement('span');
-		var weekend = i + firstDay;
 
 		$day_name.className = 'empty';
 		$day_name.innerText = '-';
@@ -284,7 +282,6 @@ function addEmptyDaySpaces(year, month, length) {
 
 // Fill days on calendar after user input length
 function fillEmptyMonth(year, month, start, length) {
-	var firstDay = firstDayOfMonth(year, month);
 	var monthId =  monthName[month] + '_' + year;
 	var $month = document.getElementById(monthId);
 	var loopLen = length;
